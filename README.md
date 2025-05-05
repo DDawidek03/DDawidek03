@@ -37,37 +37,46 @@ me.say_hi()
 
 </div>
 
-<table>
-  <tr>
-    <td valign="center">
-      <p>🔭 I'm currently working as a <b>Data Analyst Developer</b></p>
-      <p>📖 Studying <b>Cyber Security</b></p>
-      <p>🌱 Currently learning <b>Tableau</b> and expanding my data visualization skills</p>
-      <p>🚀 Always looking for new challenges and opportunities to grow</p>
-      <p>👨‍💻 All of my projects are available at <a href="https://github.com/DDawidek03/Projekty">Github Project</a></p>
-    </td>
-  </tr>
-</table>
+<div align="left">
+  <div>
+    <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Telescope.png" alt="Current Focus" width="25" height="25" />
+    <p><strong>Currently working as a Data Analyst Developer</strong></p>
+  </div>
+  <div>
+    <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="Study" width="25" height="25" />
+    <p><strong>Studying Cyber Security</strong></p>
+  </div>
+  <div>
+    <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Plants/Seedling.png" alt="Learning" width="25" height="25" />
+    <p><strong>Learning Tableau and expanding data visualization skills</strong></p>
+  </div>
+  <div>
+    <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Goals" width="25" height="25" />
+    <p><strong>Always seeking new challenges and opportunities to grow</strong></p>
+  </div>
+  <div>
+    <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="Projects" width="25" height="25" />
+    <p><strong>All projects available at <a href="https://github.com/DDawidek03/Projekty">Github Project</a></strong></p>
+  </div>
+</div>
 
-<details>
-<summary>🌠 More about me...</summary>
+<summary><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" width="25" height="25"> <b>More about me...</b></summary>
 <br>
+<blockquote>
 When I'm not analyzing data or studying cyber security, I enjoy contributing to open source projects and staying up-to-date with the latest tech trends. My goal is to bridge the gap between data analysis and security to create safer digital environments.
-
+<br><br>
 I believe in continuous learning and improvement, which is why I'm constantly exploring new tools and techniques to enhance my skills in data analysis and cybersecurity.
-
-</details>
+</blockquote>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> Projects
 
 <div align="center">
 
-| Project                                                                   | Description                                                                                           | Tech Stack                                                                                                                                                                                                                                                                                                                                                                              |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**Data Analysis Dashboard**](https://github.com/DDawidek03/project1)     | Interactive business analytics dashboard with custom visualizations and predictive analytics features | ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)                                                                                       |
-| [**Security Tool**](https://github.com/DDawidek03/project2)               | Advanced security scanning tool with vulnerability assessment and automated reporting                 | ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)                                                                                           |
-| [**Personal Portfolio**](https://github.com/DDawidek03/portfolio)         | Responsive portfolio website with interactive elements and project showcase section                   | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) |
-| [**Data Analysis Pipeline**](https://github.com/DDawidek03/data-pipeline) | Automated ETL pipeline for processing and analyzing large datasets                                    | ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Apache Airflow](https://img.shields.io/badge/-Apache_Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)                                                          |
+| Project                                                                  | Description                                                                                                              | Tech Stack                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**Financial-Monitor**](https://github.com/DDawidek03/Financial-Monitor) | Banking system with transaction analysis, anomaly detection, and security monitoring for detecting suspicious activities | ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white) ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)                                          |
+| [**SalesDB Analytics System**](https://github.com/DDawidek03/SalesDB)    | Comprehensive analytics system for a global e-commerce corporation with SQL database and MongoDB integration             | ![MS SQL Server](https://img.shields.io/badge/-MS%20SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=azure-devops&logoColor=white) ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black) |
+| [**Game Rental Application**](https://github.com/DDawidek03/GameRental)  | Interactive desktop application for game rental management with user authentication and SQLite database integration      | ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Kivy](https://img.shields.io/badge/-Kivy-3776AB?style=flat&logo=python&logoColor=white) ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white) ![UI/UX](https://img.shields.io/badge/-UI/UX-FF4088?style=flat&logo=figma&logoColor=white)                                                     |
 
 </div>
 
@@ -75,9 +84,9 @@ I believe in continuous learning and improvement, which is why I'm constantly ex
 
 ## 🔬 Latest Innovations
 
-- 💡 **Custom Data Analysis Framework** - Built a scalable analysis framework that reduced processing time by 40%
-- 🛡️ **Security Monitoring System** - Developed a real-time security monitoring system using Python and Elasticsearch
-- 📊 **Interactive Visualization Library** - Created reusable visualization components for complex data representation
+- 💡 **Financial Anomaly Detection System** - Built a real-time transaction monitoring system that identifies suspicious banking activities
+- 🛡️ **Data Integration Architecture** - Developed a hybrid SQL/NoSQL data model for efficient e-commerce analytics
+- 📊 **Cross-platform UI Framework** - Created a responsive interface for database applications using Python and Kivy
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> Skills & Technologies
 
