@@ -40,23 +40,23 @@ me.say_hi()
 <div align="left">
   <div>
     <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Telescope.png" alt="Current Focus" width="25" height="25" />
-    <p><strong>Currently working as a Data Analyst Developer</strong></p>
+    <p><strong>&nbsp; Currently working as a Data Analyst Developer</strong></p>
   </div>
   <div>
     <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="Study" width="25" height="25" />
-    <p><strong>Studying Cyber Security</strong></p>
+    <p><strong>&nbsp; Studying Cyber Security</strong></p>
   </div>
   <div>
-    <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Plants/Seedling.png" alt="Learning" width="25" height="25" />
-    <p><strong>Learning Tableau and expanding data visualization skills</strong></p>
+    <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Learning" width="25" height="25" />
+    <p><strong>&nbsp; Learning Power BI and expanding data visualization skills</strong></p>
   </div>
   <div>
     <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Goals" width="25" height="25" />
-    <p><strong>Always seeking new challenges and opportunities to grow</strong></p>
+    <p><strong>&nbsp; Always seeking new challenges and opportunities to grow</strong></p>
   </div>
   <div>
     <img align="left" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="Projects" width="25" height="25" />
-    <p><strong>All projects available at <a href="https://github.com/DDawidek03/Projekty">Github Project</a></strong></p>
+    <p><strong>&nbsp; All projects available at <a href="https://github.com/DDawidek03/Projekty">Github Project</a></strong></p>
   </div>
 </div>
 
