@@ -2,9 +2,7 @@
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=35&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&height=70&lines=Hi+there%2C+I'm+Damian+Dawidek;Welcome+to+my+GitHub+Profile" alt="Typing SVG" />
   </a>
-  
- 
-  
+
   <h3>Data Analyst Developer </h3>
   
   <p>
@@ -15,7 +13,7 @@
 
 </div>
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
+## About Me
 
 <img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="220">
 
