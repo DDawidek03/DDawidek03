@@ -109,26 +109,16 @@ print(me.current_goal())
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=DDawidek03&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&icon_color=58A6FF" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DDawidek03&theme=tokyonight&hide_border=true&layout=compact&langs_count=7&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9" />
-
-<br/><br/>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=DDawidek03&theme=tokyonight&hide_border=true&background=0d1117&ring=58A6FF&fire=FF7B72&currStreakLabel=58A6FF" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DDawidek03&theme=react-dark&hide_border=true&bg_color=0d1117&color=58A6FF&line=58A6FF&point=FFFFFF" width="95%" />
 
 </div>
 
 ---
 
-## GitHub Trophies
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DDawidek03&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=4" width="95%"/>
-</div>
 
 ---
 
@@ -144,8 +134,6 @@ print(me.current_goal())
 </a>
 
 <br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=DDawidek03&style=for-the-badge&color=58A6FF&label=Profile+Views" />
 
 </div>
 
