@@ -103,7 +103,6 @@ print(me.current_goal())
 
 </div>
 
----
 
 ## GitHub Stats
 
@@ -113,27 +112,6 @@ print(me.current_goal())
 
 <br/><br/>
 
-
-</div>
-
----
-
-
-
----
-
-## Let's Connect
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/damian-dawidek" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/DDawidek03" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<br/><br/>
 
 </div>
 
