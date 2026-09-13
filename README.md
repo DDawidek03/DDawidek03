@@ -31,7 +31,7 @@ class DamianDawidek:
         self.learning    = ["Advanced SQL", "Power BI DAX", "Azure"]
 
     def current_goal(self):
-        return "Build end-to-end analytical projects for portfolio 📊"
+        return "Build end-to-end analytical projects"
 
 me = DamianDawidek()
 print(me.current_goal())
