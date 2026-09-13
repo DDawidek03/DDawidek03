@@ -18,9 +18,6 @@
 </div>
 
 ---
-
-## 👨‍💻 About Me
-
 <img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" />
 
 ```python
@@ -52,7 +49,7 @@ print(me.current_goal())
 
 ---
 
-## 🗂️ Featured Projects
+## Featured Projects
 
 <div align="center">
 
@@ -67,11 +64,11 @@ print(me.current_goal())
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## Tech Stack & Skills
 
 <div align="center">
 
-### 🐍 Languages & Query
+### Languages & Query
 
 <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
 <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=amazondynamodb&logoColor=white" />
@@ -79,7 +76,7 @@ print(me.current_goal())
 <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 
-### 📊 Data & Analytics
+### Data & Analytics
 
 <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
@@ -87,7 +84,7 @@ print(me.current_goal())
 <img src="https://img.shields.io/badge/Apache%20Parquet-00A98F?style=for-the-badge&logo=apache&logoColor=white" />
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
 
-### 🗄️ Databases
+### Databases
 
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/MS%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
@@ -95,7 +92,7 @@ print(me.current_goal())
 <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 
-### ⚙️ Tools & DevOps
+### Tools & DevOps
 
 <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
@@ -108,7 +105,7 @@ print(me.current_goal())
 
 ---
 
-## 📈 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -127,7 +124,7 @@ print(me.current_goal())
 
 ---
 
-## 🏆 GitHub Trophies
+## GitHub Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=DDawidek03&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=4" width="95%"/>
@@ -135,7 +132,7 @@ print(me.current_goal())
 
 ---
 
-## 📬 Let's Connect
+## Let's Connect
 
 <div align="center">
 
