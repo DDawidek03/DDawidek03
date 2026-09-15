@@ -40,7 +40,6 @@ print(me.current_goal())
 <br/>
 
 - 🔭 Building **end-to-end data analytics projects** with real-world datasets
-- 🧠 Specializing in **ETL Pipelines**, **Medallion Architecture** & **Advanced SQL**
 - 🧠 Specializing in **ETL Pipelines**, **Medallion Architecture**, **Advanced SQL** & **Data Visualization**
 - 📊 Creating **interactive Power BI dashboards** for business insights
 - 🎓 Computer Science Graduate (B.Eng.) focused on **Data Engineering** & **Analytics**
