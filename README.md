@@ -24,11 +24,11 @@
 class DamianDawidek:
     def __init__(self):
         self.role        = "Data Analyst"
-        self.location    = "Poland 🇵🇱"
+        self.location    = "Poland"
         self.languages   = ["Python", "SQL", "T-SQL"]
         self.tools       = ["Power BI", "PostgreSQL", "Pandas", "Git"]
         self.focus       = "Transforming raw data into business value"
-        self.learning    = ["Advanced SQL", "Power BI DAX", "Azure"]
+        self.learning    = ["Data Modeling", "dbt", "Cloud Data Architecture"]
 
     def current_goal(self):
         return "Build end-to-end analytical projects"
@@ -42,8 +42,7 @@ print(me.current_goal())
 - 🔭 Building **end-to-end data analytics projects** with real-world datasets
 - 🧠 Specializing in **ETL Pipelines**, **Medallion Architecture** & **Advanced SQL**
 - 📊 Creating **interactive Power BI dashboards** for business insights
-- 🎓 Studying **Cyber Security** as a complementary discipline
-- ⚡ Fun fact: I believe good data visualization can replace a 20-slide PowerPoint
+- 🎓 Computer Science Graduate (B.Eng.) focused on **Data Engineering** & **Analytics**
 
 <br clear="right"/>
 
@@ -55,10 +54,9 @@ print(me.current_goal())
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| [**📈 Macroeconomic Analysis GUS**](https://github.com/DDawidek03/Projekty_analityczne) | End-to-end ETL pipeline on Polish GUS BDL API. Medallion Architecture (Bronze→Silver→Gold), Window Functions, CTEs, advanced SQL analysis | ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) ![Parquet](https://img.shields.io/badge/-Parquet-00A98F?style=flat&logo=apache&logoColor=white) ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black) |
-| [**💳 Financial-Monitor**](https://github.com/DDawidek03/Financial-Monitor) | Banking transaction analysis system with anomaly detection and security monitoring | ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white) ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black) |
-| [**🛒 SalesDB Analytics**](https://github.com/DDawidek03/SalesDB) | Comprehensive analytics system for a global e-commerce corporation with SQL and MongoDB integration | ![MS SQL Server](https://img.shields.io/badge/-MS%20SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=azure-devops&logoColor=white) ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black) |
-| [**🎮 Game Rental App**](https://github.com/DDawidek03/GameRental) | Desktop application for game rental management with authentication and SQLite database | ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white) ![Kivy](https://img.shields.io/badge/-Kivy-3776AB?style=flat&logo=python&logoColor=white) |
+| [**🛒 Sales Analytics Platform**](https://github.com/DDawidek03/Sales-Analytics-Platform) | Complete end-to-end e-commerce data analytics platform with hybrid databases (SQL Server & MongoDB), ETL data generators, Flask web app, and interactive Power BI dashboards | ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![MS SQL Server](https://img.shields.io/badge/-MS%20SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=azure-devops&logoColor=white) ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white) |
+| [**📈 Macroeconomic Analysis GUS**](https://github.com/DDawidek03/Projekty_analityczne/tree/main/01_Macroeconomic_Analysis_GUS) | End-to-end ETL pipeline on Polish GUS BDL API. Medallion Architecture (Bronze→Silver→Gold), Window Functions, CTEs, advanced SQL analysis | ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) ![Parquet](https://img.shields.io/badge/-Parquet-00A98F?style=flat&logo=apache&logoColor=white) ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black) |
+| [**📊 Analytics Case Studies & Lab**](https://github.com/DDawidek03/Projekty_analityczne) | Database-first analytics repository covering database design, query optimization, API ingestion pipelines, and interactive BI reports | ![Python](https://img.shields.io/badge/-Python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![SQL](https://img.shields.io/badge/-SQL-025E8C?style=flat&logo=amazondynamodb&logoColor=white) ![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) |
 
 </div>
 
@@ -99,22 +97,9 @@ print(me.current_goal())
 <img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white" />
 <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
 <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
 
 </div>
-
-
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=DDawidek03&theme=tokyonight&hide_border=true&background=0d1117&ring=58A6FF&fire=FF7B72&currStreakLabel=58A6FF" />
-
-<br/><br/>
-
-
-</div>
-
----
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
