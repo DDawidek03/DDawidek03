@@ -28,7 +28,7 @@ class DamianDawidek:
         self.languages   = ["Python", "SQL", "T-SQL"]
         self.tools       = ["Power BI", "PostgreSQL", "Pandas", "Git"]
         self.focus       = "Transforming raw data into business value"
-        self.learning    = ["Data Modeling", "dbt", "Cloud Data Architecture"]
+        self.learning    = ["Data Warehousing", "Alteryx", "Cloud Analytics"]
 
     def current_goal(self):
         return "Build end-to-end analytical projects"
@@ -41,8 +41,10 @@ print(me.current_goal())
 
 - 🔭 Building **end-to-end data analytics projects** with real-world datasets
 - 🧠 Specializing in **ETL Pipelines**, **Medallion Architecture** & **Advanced SQL**
+- 🧠 Specializing in **ETL Pipelines**, **Medallion Architecture**, **Advanced SQL** & **Data Visualization**
 - 📊 Creating **interactive Power BI dashboards** for business insights
 - 🎓 Computer Science Graduate (B.Eng.) focused on **Data Engineering** & **Analytics**
+- 🚀 Expanding skills in **Data Warehousing** & **Alteryx** automation
 
 <br clear="right"/>
 
@@ -81,6 +83,7 @@ print(me.current_goal())
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
 <img src="https://img.shields.io/badge/Apache%20Parquet-00A98F?style=for-the-badge&logo=apache&logoColor=white" />
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Alteryx-004B87?style=for-the-badge&logo=alteryx&logoColor=white" />
 
 ### Databases
 
