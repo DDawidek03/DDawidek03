@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Damian%20Dawidek&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Analyst%20%7C%20SQL%20%7C%20Python%20%7C%20Power%20BI&descAlignY=60&descSize=20" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&height=50&lines=Turning+raw+data+into+business+decisions+%F0%9F%93%88;SQL+%7C+Python+%7C+PostgreSQL+%7C+Power+BI;ETL+Pipelines+%7C+Medallion+Architecture;Always+learning%2C+always+growing+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&height=50&lines=Turning+raw+data+into+business+decisions;SQL+%7C+Python+%7C+PostgreSQL+%7C+Power+BI;ETL+Pipelines+%7C+Medallion+Architecture;Always+learning%2C+always+growing" alt="Typing SVG" />
 </a>
 
 <br/>
