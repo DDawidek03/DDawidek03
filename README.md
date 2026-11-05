@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Damian Dawidek: Data Analyst"/>
+<img src="./assets/banner.svg" width="100%" alt="Damian Dawidek: Data Analyst / BI Developer"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3000&pause=1000&color=7CB2FF&center=true&vCenter=true&width=750&height=45&lines=ETL+Pipelines+%E2%80%A2+Medallion+Architecture;Advanced+SQL+%E2%80%A2+Window+Functions+%E2%80%A2+CTEs;Power+BI+dashboards+that+replace+20-slide+decks" alt="Typing SVG" />
@@ -36,13 +36,13 @@ Advanced SQL: window functions, CTEs, anomaly detection on transactional data
 
 **Reporting**
 
-Interactive Power BI and Tableau dashboards, DAX, business KPIs
+Interactive Power BI and Tableau dashboards, DAX, row-level security, business KPIs
 
 </td>
 </tr>
 </table>
 
-Currently learning **Power BI DAX** and **Azure** · also studying **Cyber Security** · based in Poland
+Working with **Power BI (DAX, RLS)**, **Python** and **SQL** · **Azure Fundamentals** certified · based in Warsaw, Poland
 
 <br/>
 
