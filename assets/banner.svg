@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#010309"/>
+      <stop offset="1" stop-color="#030a24"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.85" cy="0.15" r="0.55">
+      <stop offset="0" stop-color="#1d4ed8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.1" cy="1" r="0.6">
+      <stop offset="0" stop-color="#1e3aff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#1e3aff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#e0ebff"/>
+      <stop offset="1" stop-color="#93b4ff"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e40ff"/>
+      <stop offset="1" stop-color="#7cb2ff"/>
+    </linearGradient>
+    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b6cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3b6cff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f5bff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#2f5bff" stop-opacity="0.08"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.8,.2,1) forwards; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; }
+    .d4 { animation-delay: .85s; } .d5 { animation-delay: 1.1s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .line { stroke-dasharray: 520; stroke-dashoffset: 520; animation: draw 7s ease-in-out infinite 1s; }
+    @keyframes draw { 0% { stroke-dashoffset: 520; } 35% { stroke-dashoffset: 0; } 88% { stroke-dashoffset: 0; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+    .area { opacity: 0; animation: area 7s ease-in-out infinite 1s; }
+    @keyframes area { 0%, 25% { opacity: 0; } 40%, 85% { opacity: 1; } 100% { opacity: 0; } }
+
+    .bar { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); animation: grow 7s cubic-bezier(.2,.8,.2,1) infinite; }
+    @keyframes grow { 0% { transform: scaleY(0); } 18%, 88% { transform: scaleY(1); } 100% { transform: scaleY(0); } }
+
+    .pt { opacity: 0; animation: pt 7s ease infinite 1s; }
+    @keyframes pt { 0%, 33% { opacity: 0; } 38%, 86% { opacity: 1; } 100% { opacity: 0; } }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 1.8s ease-out infinite; }
+    @keyframes pulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(3.2); opacity: 0; } }
+
+    .flow { stroke-dasharray: 4 7; animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -22; } }
+    .node { animation: node 3.6s ease-in-out infinite; }
+    .n2 { animation-delay: 1.2s; } .n3 { animation-delay: 2.4s; }
+    @keyframes node { 0%, 100% { stroke-opacity: .25; } 15% { stroke-opacity: 1; } 40% { stroke-opacity: .25; } }
+
+    .float { animation: float 6s ease-in-out infinite; }
+    @keyframes float { 50% { transform: translateY(-6px); } }
+  </style>
+
+  <!-- background -->
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <rect width="1200" height="380" fill="url(#glowA)"/>
+  <rect width="1200" height="380" fill="url(#glowB)"/>
+  <g stroke="#3b6cff" stroke-opacity="0.18" stroke-width="1"><line x1="18" y1="30" x2="120" y2="12"/><line x1="120" y1="12" x2="210" y2="58"/><line x1="210" y1="58" x2="330" y2="20"/><line x1="210" y1="58" x2="300" y2="70"/><line x1="330" y1="20" x2="450" y2="46"/><line x1="330" y1="20" x2="300" y2="70"/><line x1="450" y1="46" x2="560" y2="14"/><line x1="450" y1="46" x2="520" y2="90"/><line x1="560" y1="14" x2="640" y2="40"/><line x1="560" y1="14" x2="520" y2="90"/><line x1="640" y1="40" x2="520" y2="90"/><line x1="40" y1="350" x2="150" y2="330"/><line x1="150" y1="330" x2="260" y2="366"/><line x1="260" y1="366" x2="380" y2="344"/><line x1="380" y1="344" x2="500" y2="372"/><line x1="500" y1="372" x2="600" y2="340"/></g>
+  <g fill="#6f95ff" fill-opacity="0.5"><circle cx="18" cy="30" r="2"/><circle cx="120" cy="12" r="2"/><circle cx="210" cy="58" r="2"/><circle cx="330" cy="20" r="2"/><circle cx="450" cy="46" r="2"/><circle cx="560" cy="14" r="2"/><circle cx="640" cy="40" r="2"/><circle cx="40" cy="350" r="2"/><circle cx="150" cy="330" r="2"/><circle cx="260" cy="366" r="2"/><circle cx="380" cy="344" r="2"/><circle cx="500" cy="372" r="2"/><circle cx="600" cy="340" r="2"/><circle cx="300" cy="70" r="2"/><circle cx="520" cy="90" r="2"/></g>
+
+  <!-- left: identity -->
+  <g class="rise d1">
+    <rect x="60" y="95" width="32" height="2" fill="#4f7cff"/>
+    <text x="104" y="101" class="sans" font-size="14" font-weight="600" fill="#c7d6ff" letter-spacing="3">DATA ANALYST</text>
+  </g>
+  <g class="rise d2">
+    <text x="58" y="168" class="sans" font-size="66" font-weight="800" fill="url(#nameGrad)" letter-spacing="-1.5">Damian Dawidek</text>
+  </g>
+  <g class="rise d3">
+    <text x="60" y="208" class="sans" font-size="20" fill="#9fb0d0">Data Architecture &amp; Business Intelligence</text>
+  </g>
+  <g class="rise d4">
+    <text x="60" y="250" class="mono" font-size="15" fill="#5d6b8a"><tspan fill="#6f95ff">SELECT</tspan> insights <tspan fill="#6f95ff">FROM</tspan> raw_data <tspan fill="#6f95ff">GROUP BY</tspan> impact;<tspan class="caret" fill="#7cb2ff">▍</tspan></text>
+  </g>
+  <g class="rise d5 sans" font-size="13" font-weight="600">
+    <rect x="60" y="278" width="54" height="30" rx="15" fill="#2f5bff" fill-opacity="0.1" stroke="#4f7cff" stroke-opacity="0.45"/>
+    <text x="87" y="298" text-anchor="middle" fill="#c7d6ff">SQL</text>
+    <rect x="124" y="278" width="79" height="30" rx="15" fill="#2f5bff" fill-opacity="0.1" stroke="#4f7cff" stroke-opacity="0.45"/>
+    <text x="163.5" y="298" text-anchor="middle" fill="#c7d6ff">Python</text>
+    <rect x="213" y="278" width="95" height="30" rx="15" fill="#2f5bff" fill-opacity="0.1" stroke="#4f7cff" stroke-opacity="0.45"/>
+    <text x="260.5" y="298" text-anchor="middle" fill="#c7d6ff">Power BI</text>
+    <rect x="318" y="278" width="87" height="30" rx="15" fill="#2f5bff" fill-opacity="0.1" stroke="#4f7cff" stroke-opacity="0.45"/>
+    <text x="361.5" y="298" text-anchor="middle" fill="#c7d6ff">Tableau</text>
+    <rect x="415" y="278" width="71" height="30" rx="15" fill="#2f5bff" fill-opacity="0.1" stroke="#4f7cff" stroke-opacity="0.45"/>
+    <text x="450.5" y="298" text-anchor="middle" fill="#c7d6ff">Azure</text>
+  </g>
+
+  <!-- right: dashboard card -->
+  <g class="float">
+    <rect x="680" y="52" width="470" height="282" rx="18" fill="#040b22" fill-opacity="0.7" stroke="#4f7cff" stroke-opacity="0.18"/>
+    <rect x="680" y="52" width="470" height="282" rx="18" fill="url(#glowA)" opacity="0.5"/>
+    <circle cx="704" cy="78" r="4.5" fill="#ffffff" fill-opacity="0.18"/>
+    <circle cx="719" cy="78" r="4.5" fill="#ffffff" fill-opacity="0.12"/>
+    <circle cx="734" cy="78" r="4.5" fill="#ffffff" fill-opacity="0.08"/>
+    <text x="756" y="83" class="mono" font-size="12.5" fill="#6b7a99">gold.business_trends</text>
+    <line x1="680" y1="98" x2="1150" y2="98" stroke="#4f7cff" stroke-opacity="0.15"/>
+
+    <!-- gridlines -->
+    <g stroke="#ffffff" stroke-opacity="0.06" stroke-dasharray="3 5">
+      <line x1="700" y1="130" x2="1130" y2="130"/>
+      <line x1="700" y1="170" x2="1130" y2="170"/>
+      <line x1="700" y1="210" x2="1130" y2="210"/>
+    </g>
+    <line x1="700" y1="240" x2="1130" y2="240" stroke="#ffffff" stroke-opacity="0.12"/>
+
+    <!-- bars -->
+    <g fill="url(#barGrad)">
+      <rect class="bar" style="animation-delay:.10s" x="700"  y="208" width="22" height="32" rx="3"/>
+      <rect class="bar" style="animation-delay:.16s" x="743"  y="196" width="22" height="44" rx="3"/>
+      <rect class="bar" style="animation-delay:.22s" x="786"  y="202" width="22" height="38" rx="3"/>
+      <rect class="bar" style="animation-delay:.28s" x="829"  y="182" width="22" height="58" rx="3"/>
+      <rect class="bar" style="animation-delay:.34s" x="872"  y="190" width="22" height="50" rx="3"/>
+      <rect class="bar" style="animation-delay:.40s" x="915"  y="170" width="22" height="70" rx="3"/>
+      <rect class="bar" style="animation-delay:.46s" x="958"  y="176" width="22" height="64" rx="3"/>
+      <rect class="bar" style="animation-delay:.52s" x="1001" y="154" width="22" height="86" rx="3"/>
+      <rect class="bar" style="animation-delay:.58s" x="1044" y="146" width="22" height="94" rx="3"/>
+      <rect class="bar" style="animation-delay:.64s" x="1087" y="132" width="22" height="108" rx="3"/>
+    </g>
+
+    <!-- trend line -->
+    <path class="area" d="M711 192 L754 180 L797 186 L840 164 L883 170 L926 150 L969 152 L1012 132 L1055 124 L1098 110 L1098 240 L711 240 Z" fill="url(#areaGrad)"/>
+    <path class="line" d="M711 192 L754 180 L797 186 L840 164 L883 170 L926 150 L969 152 L1012 132 L1055 124 L1098 110" fill="none" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <g class="pt">
+      <circle class="pulse" cx="1098" cy="110" r="5" fill="#7cb2ff"/>
+      <circle cx="1098" cy="110" r="5" fill="#040b22" stroke="#7cb2ff" stroke-width="2.5"/>
+    </g>
+
+    <!-- medallion pipeline -->
+    <g fill="none" stroke-width="2">
+      <line class="flow" x1="784" y1="284" x2="896" y2="284" stroke="#94a3b8" stroke-opacity="0.6"/>
+      <line class="flow" x1="946" y1="284" x2="1058" y2="284" stroke="#94a3b8" stroke-opacity="0.6"/>
+    </g>
+    <g class="mono" font-size="11.5" text-anchor="middle">
+      <rect class="node"    x="716"  y="270" width="68" height="28" rx="8" fill="#cd7f32" fill-opacity="0.12" stroke="#cd7f32"/>
+      <text x="750"  y="288" fill="#e3a46b">bronze</text>
+      <rect class="node n2" x="896"  y="270" width="50" height="28" rx="8" fill="#cbd5e1" fill-opacity="0.10" stroke="#cbd5e1"/>
+      <text x="921"  y="288" fill="#e2e8f0">silver</text>
+      <rect class="node n3" x="1058" y="270" width="58" height="28" rx="8" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24"/>
+      <text x="1087" y="288" fill="#fcd34d">gold</text>
+      <text x="840"  y="317" fill="#475569" font-size="10.5">clean</text>
+      <text x="1002" y="317" fill="#475569" font-size="10.5">model</text>
+    </g>
+  </g>
+
+  <!-- bottom accent line -->
+  <rect x="0" y="378" width="1200" height="2" fill="url(#lineGrad)" opacity="0.7"/>
+</svg>

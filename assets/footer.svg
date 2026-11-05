@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e40ff" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#1e40ff"/>
+      <stop offset="0.8" stop-color="#7cb2ff"/>
+      <stop offset="1" stop-color="#7cb2ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7cb2ff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#7cb2ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .l { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: d 6s ease-in-out infinite; }
+    @keyframes d { 0% { stroke-dashoffset: 1400; } 45%, 85% { stroke-dashoffset: 0; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+    .t { font-family: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+  <path d="M0 92 C 90 92 120 70 200 74 S 320 96 400 80 S 520 46 600 58 S 720 86 800 66 S 930 30 1000 40 S 1120 60 1200 34 L1200 120 L0 120 Z" fill="url(#a)"/>
+  <path class="l" d="M0 92 C 90 92 120 70 200 74 S 320 96 400 80 S 520 46 600 58 S 720 86 800 66 S 930 30 1000 40 S 1120 60 1200 34" fill="none" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="600" y="24" text-anchor="middle" class="t" font-size="13" fill="#5d6b8a">-- thanks for stopping by · query complete in 0.42s</text>
+</svg>
