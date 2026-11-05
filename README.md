@@ -6,7 +6,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3000&pause=1000&color=7CB2FF&center=true&vCenter=true&width=750&height=45&lines=ETL+Pipelines+%E2%80%A2+Medallion+Architecture;Advanced+SQL+%E2%80%A2+Window+Functions+%E2%80%A2+CTEs;Power+BI+dashboards+that+replace+20-slide+decks" alt="Typing SVG" />
 </a>
 
-<a href="https://dawidekdata.com"><img src="https://img.shields.io/badge/dawidekdata.com-0a1230?style=for-the-badge&logo=googlechrome&logoColor=7cb2ff" /></a>&nbsp;<a href="mailto:damiandawidek@outlook.com"><img src="https://img.shields.io/badge/damiandawidek@outlook.com-0a1230?style=for-the-badge&logo=microsoftoutlook&logoColor=7cb2ff" /></a>
+<a href="https://dawidekdata.com"><img src="https://img.shields.io/badge/dawidekdata.com-0a1230?style=for-the-badge&logo=googlechrome&logoColor=7cb2ff" /></a>&nbsp;<a href="https://www.linkedin.com/in/damiandawidek/"><img src="https://img.shields.io/badge/LinkedIn-0a1230?style=for-the-badge&logo=linkedin&logoColor=7cb2ff" /></a>&nbsp;<a href="https://public.tableau.com/app/profile/damian.dawidek/vizzes"><img src="https://img.shields.io/badge/Tableau%20Public-0a1230?style=for-the-badge&logo=tableau&logoColor=7cb2ff" /></a>
 
 </div>
 
@@ -52,55 +52,85 @@ Currently learning **Power BI DAX** and **Azure** · also studying **Cyber Secur
 <tr>
 <td width="50%" valign="top">
 
-### [Macroeconomic Analysis GUS](https://github.com/DDawidek03/Projekty_analityczne)
+<a href="https://dawidekdata.com/project5.html"><img src="https://dawidekdata.com/img/Powerbi-medyczne/overview.webp" width="100%" alt="Health Data Analytics"/></a>
 
-End-to-end ETL pipeline on the Polish GUS BDL API. Medallion Architecture (Bronze → Silver → Gold), window functions, CTEs and advanced SQL analysis.
+### [Health Data Analytics](https://dawidekdata.com/project5.html)
 
-![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=ffdd54)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=4f9fe6)
-![Parquet](https://img.shields.io/badge/Parquet-0d1117?style=flat-square&logo=apache&logoColor=00A98F)
-![Power BI](https://img.shields.io/badge/Power%20BI-0d1117?style=flat-square&logo=powerbi&logoColor=F2C811)
+Power BI analysis of health indicators and clinical risk factors, built with full data anonymisation and GDPR-compliant access control.
+
+**253k+ records · 100% anonymised · RBAC**
+
+![Power BI](https://img.shields.io/badge/Power%20BI-0a1230?style=flat-square&logo=powerbi&logoColor=F2C811)
+![DAX](https://img.shields.io/badge/DAX-0a1230?style=flat-square&logo=powerbi&logoColor=F2C811)
+![GDPR](https://img.shields.io/badge/GDPR-0a1230?style=flat-square&logo=letsencrypt&logoColor=7cb2ff)
+
+[Case study](https://dawidekdata.com/project5.html)
 
 </td>
 <td width="50%" valign="top">
 
-### [Financial Monitor](https://github.com/DDawidek03/Financial-Monitor)
+<a href="https://dawidekdata.com/project4.html"><img src="https://dawidekdata.com/img/flowscope_dashboard.webp" width="100%" alt="FlowScope Analytics"/></a>
 
-Banking transaction analysis system with anomaly detection and security monitoring.
+### [FlowScope Analytics](https://dawidekdata.com/project4.html)
 
-![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=flat-square&logo=mysql&logoColor=4479A1)
-![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=ffdd54)
-![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=flat-square&logo=pandas&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-0d1117?style=flat-square&logo=powerbi&logoColor=F2C811)
+Desktop app for monitoring water supply networks and instantly detecting pressure anomalies, with an offline cryptographic licensing module.
+
+**Commercial B2B · 3 analytics modules · PDF/HTML reports**
+
+![Python](https://img.shields.io/badge/Python-0a1230?style=flat-square&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/Flask-0a1230?style=flat-square&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-0a1230?style=flat-square&logo=sqlite&logoColor=4fa8d8)
+![Plotly](https://img.shields.io/badge/Plotly-0a1230?style=flat-square&logo=plotly&logoColor=7cb2ff)
+
+[Case study](https://dawidekdata.com/project4.html) · <sub>closed source</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [SalesDB Analytics](https://github.com/DDawidek03/SalesDB)
+<a href="https://github.com/DDawidek03/Sales-Analytics-Platform"><img src="https://dawidekdata.com/img/globalvista/dashboard.webp" width="100%" alt="GlobalVista Analytics"/></a>
 
-Analytics system for a global e-commerce corporation, integrating SQL Server and MongoDB.
+### [GlobalVista Analytics](https://github.com/DDawidek03/Sales-Analytics-Platform)
 
-![SQL Server](https://img.shields.io/badge/SQL%20Server-0d1117?style=flat-square&logo=microsoftsqlserver&logoColor=CC2927)
-![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=47A248)
-![Azure](https://img.shields.io/badge/Azure-0d1117?style=flat-square&logo=microsoftazure&logoColor=0078D4)
-![Power BI](https://img.shields.io/badge/Power%20BI-0d1117?style=flat-square&logo=powerbi&logoColor=F2C811)
+Engineering thesis: full-stack sales management platform joining 4 database engines (SQL Server, MongoDB, Azure SQL, Cosmos DB) with Power BI reporting.
+
+**1M+ test records · 24 markets · REST API**
+
+![Python](https://img.shields.io/badge/Python-0a1230?style=flat-square&logo=python&logoColor=ffdd54)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-0a1230?style=flat-square&logo=microsoftsqlserver&logoColor=CC2927)
+![MongoDB](https://img.shields.io/badge/MongoDB-0a1230?style=flat-square&logo=mongodb&logoColor=47A248)
+![Power BI](https://img.shields.io/badge/Power%20BI-0a1230?style=flat-square&logo=powerbi&logoColor=F2C811)
+
+[Source code](https://github.com/DDawidek03/Sales-Analytics-Platform) · [Case study](https://dawidekdata.com/project3.html)
 
 </td>
 <td width="50%" valign="top">
 
-### [Game Rental App](https://github.com/DDawidek03/GameRental)
+<a href="https://github.com/DDawidek03/Projekty_analityczne/tree/main/01_Macroeconomic_Analysis_GUS"><img src="https://raw.githubusercontent.com/DDawidek03/Projekty_analityczne/main/01_Macroeconomic_Analysis_GUS/images/pbi_dashboard.png" width="100%" alt="Macroeconomic Analysis GUS"/></a>
 
-Desktop app for game rental management with authentication and a SQLite database.
+### [Macroeconomic Analysis (GUS API)](https://github.com/DDawidek03/Projekty_analityczne/tree/main/01_Macroeconomic_Analysis_GUS)
 
-![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=ffdd54)
-![SQLite](https://img.shields.io/badge/SQLite-0d1117?style=flat-square&logo=sqlite&logoColor=4fa8d8)
-![Kivy](https://img.shields.io/badge/Kivy-0d1117?style=flat-square&logo=python&logoColor=white)
+ETL/ELT pipeline on the Statistics Poland API: Bronze → Silver → Gold into a PostgreSQL star schema, with SQL analysis and a Power BI report.
+
+**8 indicators · 380+ counties · 2018–2024**
+
+![Python](https://img.shields.io/badge/Python-0a1230?style=flat-square&logo=python&logoColor=ffdd54)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a1230?style=flat-square&logo=postgresql&logoColor=4f9fe6)
+![Parquet](https://img.shields.io/badge/Parquet-0a1230?style=flat-square&logo=apache&logoColor=00A98F)
+![Power BI](https://img.shields.io/badge/Power%20BI-0a1230?style=flat-square&logo=powerbi&logoColor=F2C811)
+
+[Source code](https://github.com/DDawidek03/Projekty_analityczne/tree/main/01_Macroeconomic_Analysis_GUS)
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+More case studies and the full portfolio at **[dawidekdata.com](https://dawidekdata.com/projects.html)** · SQL work in **[Projekty_analityczne](https://github.com/DDawidek03/Projekty_analityczne)**
+
+</div>
 
 <br/>
 
@@ -108,13 +138,14 @@ Desktop app for game rental management with authentication and a SQLite database
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,postgres,mysql,mongodb,sqlite,azure,aws,docker,git,bash,js,vscode&theme=dark&perline=12" />
+<img src="https://skillicons.dev/icons?i=py,postgres,mongodb,sqlite,azure,flask,docker,git,vscode&theme=dark&perline=12" />
 
 <br/><br/>
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![T-SQL](https://img.shields.io/badge/T--SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-1a1a1a?style=for-the-badge&logo=duckdb&logoColor=FFF000)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
